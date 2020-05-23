@@ -1,0 +1,956 @@
+
+
+
+
+
+/* tablet*/
+@media all and (max-width: 768px) {
+
+  /*header*/
+  .header-wrapper-right{
+    display: none;
+  }
+
+  .btn-gnavi{
+    display: block;
+  }
+  .wrapper nav{
+    display: block;
+  }
+  header{
+    overflow-x: hidden;
+    position: relative;
+  }
+
+
+  /*concept*/
+  .owner{
+    width:43.1vw;
+    position:absolute;
+    top:27.0vw;
+    left:53.0vw;
+    z-index: 10;
+  }
+  .owner2{
+    width:21.5vw;
+    position:absolute;
+    top:44.8vw;
+    left:39.2vw;
+    z-index: 15;
+  }
+
+}
+@media all and (max-width:  680px) {
+  .logo-facebook{
+    top:11.9vw;
+  }
+  .logo-instagram{
+    top:11.9vw;
+  }
+}
+@media all and (max-width:  580px) {
+  .logo-facebook{
+    top:11vw;
+  }
+  .logo-instagram{
+    top:11vw;
+  }
+}
+/* smartphone 414px*/
+@media all and (max-width:  414px) {
+  /*common*/
+  .scription-wrapper{
+    padding:5vw 5vw 0 5vw;
+    width:73.6vw;
+    height: 45.0vw;
+  }
+  .scription-wrapper p{
+    margin-bottom:5vw;
+    font-size: 2.17vw;
+  }
+  .scription-wrapper .english{
+    margin-bottom: 3.59vw;
+    font-size: 2.17vw;
+  }
+  .btn{
+    cursor:pointer;
+  }
+  .btn-readmore{
+    width:19.3vw;
+    height:6.51vw;
+    font-size: 1.69vw;
+    line-height: 6.51vw;
+    background-color: white;
+  }
+  .scription-wrapper .btn-readmore{
+    left:40vw;
+    top:30vw;
+  }
+  /*header*/
+  header{
+    position: relative;
+    height: 135.7vw;
+    overflow-x: hidden;
+
+  }
+  .global-navi{
+    display: block;
+    height: 116.43vw;
+    z-index: 20;
+    padding-top: 11.30vw;
+  }
+  .wrapper nav ul li{
+    margin-bottom:7.34vw;
+  }
+  .wrapper nav .btn-global-navi-english{
+    font-size: 3.14vw;
+    display: block;
+    margin-bottom: 2.80vw;
+    line-height: 1.23;
+  }
+  .wrapper nav .btn-global-navi-japanese{
+    font-size: 1.69vw;
+    display: block;
+  }
+  .header-sns{
+    display: none;
+  }
+  /*concept*/
+  .concept{
+    position:relative;
+    height: 18.2vw;
+    top:-80vw;
+  }
+  .txt-concept1{
+    position: absolute;
+    top:19.1vw;
+  }
+  .txt-concept2{
+    position: absolute;
+    top:28.24vw;
+  }
+  .txt-concept-english{
+    position: absolute;
+    top:44.6vw;
+  }
+  .btn-concept{
+    top:41.8vw;
+    left: 68.8vw;
+  }
+  .owner{
+    width:48.4vw;
+    position:absolute;
+    top:57.7vw;
+    left:33.1vw;
+    z-index: 10;
+  }
+  .owner2{
+    width:24.2vw;
+    position:absolute;
+    top:77.1vw;
+    left:18.1vw;
+    z-index: 10;
+  }
+  .box{
+    display: none;
+  }
+  /*lodge*/
+  .lodge{
+    position: relative;
+    height: 157.3vw;
+  }
+  .vertical-heading-lodge{
+    position: absolute;
+    top:4.64vw;
+    left: 6.09vw;
+    opacity: 0.1;
+  }
+  .heading-lodge{
+    position: relative;
+  }
+  /*underline*/
+  .heading-lodge:before {
+    width: 15.1vw;/*線の長さ*/
+  }
+  .scription-wrapper-lodge{
+    position: absolute;
+    width:73.6vw;
+    height: 45.0vw;
+    top:15.0vw;
+    left:22.4vw;
+    z-index: 10;
+  }
+  .img-bedroom{
+    position:absolute;
+    width:86.8vw;
+    left:6.6vw;
+    top:60vw;
+  }
+  .img-scenery{
+    position: absolute;
+    width:100vw;
+    top:121vw;
+    left:0;
+  }
+
+  /*food*/
+  .food{
+    position: relative;
+    height: 129vw;
+  }
+  .vertical-heading-food{
+    position: absolute;
+    top:-6.5vw;
+    left: 8.18vw;
+    opacity: 0.1;
+  }
+  .heading-food{
+    position: relative;
+    top:-6vw;
+  }
+  /*underline*/
+  .heading-food:before {
+    width: 19.7vw;/*線の長さ*/
+  }
+  .scription-wrapper-food{
+    position: absolute;
+    top:3.41vw;
+    left:22.4vw;
+    z-index: 10;
+  }
+  .img-meal{
+    width:88.4vw;
+    position: absolute;
+    top:48.1vw;
+    left: 5.8vw;
+  }
+  .img-meal2{
+    position: absolute;
+    top:106.7vw;
+    left:0vw;
+    width:100vw;
+  }
+
+  /*program*/
+  .program{
+    position: relative;
+    height: 146vw;
+    background-color: white;
+  }
+  .vertical-heading-program{
+    position: absolute;
+    top:4.38vw;
+    left: 7.34vw;
+    opacity: 0.1;
+  }
+  .heading-program{
+    position: relative;
+    top:9.9vw;
+    left: 3.6vw;
+    font-size:4.35vw;
+  }
+  /*underline*/
+  .heading-program:before {
+    width: 24.8vw;/*線の長さ*/
+  }
+  .scription-wrapper-program{
+    position: absolute;
+    top:20.1vw;
+    left:22.4vw;
+    z-index: 10;
+  }
+  .img-interactiveprogram{
+    width:86.7vw;
+    position: absolute;
+    top:64.8vw;
+    left:6.65vw;
+  }
+  .img-interactiveprogram2{
+    position: absolute;
+    top:126vw;
+    left:0vw;
+    width:100vw;
+  }
+
+  /*message*/
+  .message{
+    display: none;
+  }
+  /*ask*/
+  .ask{
+    height: 101vw;
+  }
+  .ask .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top:5vw;
+  }
+  .ask-wrapper{
+    height: 38.1vw;
+    width:65.4vw;
+    margin: 0 4.32vw;
+    background-color:#F4F4F4;
+    position:relative;
+  }
+  .ask-wrapper-booking{
+    margin-top:4.59vw;
+  }
+  .heading-ask-wrapper{
+    position: absolute;
+    top:2.85vw;
+    left:-3.62vw;
+    font-size: 3.62vw;
+  }
+  .txt-ask-wrapper-japanese{
+    position: absolute;
+    top:9.76vw;
+    left:6.33vw;
+    font-size: 2.17vw;
+  }
+  .txt-ask-wrapper-english{
+    position: absolute;
+    top:18.7vw;
+    left:6.33vw;
+    font-size: 1.67vw;
+  }
+  .btn-contact, .btn-booking{
+    position: absolute;
+    top:26.6vw;
+    left:46.9vw;
+    width:22vw;
+    height: 7.47vw;
+    font-size: 1.67vw;
+    line-height: 7.47vw;
+  }
+
+  /*footer*/
+  footer{
+    height: 20.91vw;
+  }
+  .footer-top{
+    height: 17.32vw;
+    position:relative;
+  }
+  .img-logo-white{
+    width: 21.8vw;
+    height: 20.8vw;
+    position: absolute;
+    left: 2.18vw;
+    top:-2.14vw;
+  }
+
+  /*underline*/
+  .heading-contents:before {
+    width: 3.7vw;/*線の長さ*/
+    background-color: white;/*線の色*/
+    bottom: -0.5vw;/*線の上下位置*/
+  }
+  .heading-contents{
+    position: absolute;
+    left: 26.9vw;
+    top:2.55vw;
+    font-size: 1.69vw;
+  }
+  .txt-contents{
+    position: absolute;
+    left: 27.5vw;
+    top:5.73vw;
+    font-size: 1.69vw;
+  }
+  .heading-contactInformation{
+    position: relative;
+    left: 66.8vw;
+    top:2.55vw;
+    font-size:1.45vw;
+  }
+  /*underline*/
+  .heading-contactInformation:before {
+    width: 5.57vw;/*線の長さ*/
+    background-color: white;/*線の色*/
+    bottom: -0.5vw;/*線の上下位置*/
+  }
+  .logo-facebook{
+    position: absolute;
+    left: 66.8vw;
+    top:10.9vw;
+  }
+  .logo-instagram{
+    position: absolute;
+    left: 70.4vw;
+    top:10.9vw;
+  }
+  .footer-bottom{
+    height: 3.59vw;
+    opacity: 0.8;
+    padding-left: 2.60vw;
+    padding-top:1vw;
+  }
+  .copyright{
+    display: inline-block;
+  }
+}
+/* iphonex/xs 376px*/
+@media all and (max-width:  376px) {
+  /*common*/
+  .img-column{
+    width:100vw;
+  }
+  .btn{
+    border:solid 0.05px black;
+    display: inline-block;
+    z-index: 10;
+    text-align: center;
+    cursor:pointer;
+  }
+  .btn-readmore{
+    width:32.57vw;
+    height:9.16vw;
+    line-height: 9.16vw;
+    text-align: center;
+  }
+  .btn-booking, .btn-contact{
+    width:11.9vw;
+    height: 4.03vw;
+    line-height: 4.03vw;
+    text-align: center;
+  }
+  .heading{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1em;
+    left: 12.77vw;
+    top: 12.03vw;
+    z-index: 15;
+  }
+
+  /*以下で線を表示*/
+  .heading:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -1.77vw;/*線の上下位置*/
+    display: inline-block;
+    width: 15.1vw;/*線の長さ*/
+    height: 0.5px;/*線の太さ*/
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);/*位置調整*/
+    background-color: black;/*線の色*/
+    border-radius: 2px;/*線の丸み*/
+  }
+  .scription-wrapper{
+    position: absolute;
+    top:40.16vw;
+    left:28.19vw;
+    z-index: 10;
+    width:71.54vw;
+    height: 106.38vw;
+  }
+  .scription-wrapper p{
+    font-size: 3.99vw;
+    left: 5.85vw;
+    top:6.41vw;
+    width:60.37vw;
+    line-height: 1.67;
+    letter-spacing: 0.1em;
+  }
+  .scription-wrapper .english{
+    top: 73.59vw;
+    font-size: 3.99vw;
+  }
+  .scription-wrapper .btn-readmore{
+    top:92.13vw;
+    left:33.59vw;
+    font-size: 3.19vw;
+  }
+  .english br{
+    display: inline-block;
+  }
+  /*header*/
+  header{
+    position:relative;
+    height: 178.4vw;
+    overflow-x: hidden;
+    width:100vw;
+  }
+  #slide{
+    display: none;
+  }
+  #slide2{
+    display: block;
+  }
+  .header-wrapper{
+    background-color:#000000;
+    position: relative;
+    opacity:0.7;
+    top:0;
+    left: 0;
+    z-index: 10;
+    width:100vw;
+    height: 16.57vw;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    transition: 0.2s;
+  }
+  .header-wrapper.downsize{
+
+    position: relative;
+    top:0;
+    left: 17.55vw;
+    width: 82.45vw;
+    transition: 0.2s;
+  }
+  .header-wrapper.upsize{
+
+    position: relative;
+    top:0;
+    left: 0;
+    width: 100vw;
+    transition: 0.2s;
+  }
+
+  .header-wrapper-left{
+    margin-left: 6vw;
+  }
+  .header-wrapper-left .wrapper{
+    display: flex;
+    align-items:flex-end;
+    margin-bottom:5px;
+  }
+  .header-wrapper-left h2{
+    margin-right:3vw;
+    font-size: 3.21vw;
+  }
+  .header-wrapper-left h1{
+    margin-right:;
+    font-size: 5.59vw;
+  }
+  .header-wrapper-left p{
+    letter-spacing: 0.1em;
+    font-size: 2.2vw;
+
+  }
+
+  .img-top{
+  position:absolute;
+  left:0;
+  top:0;
+  display: none;
+  }
+  .img-top-ip{
+    height: 178.31vw;
+    width: 100vw;
+    display: block;
+    position:absolute;
+    left:0;
+    top:0;
+  }
+  .global-navi{
+    height: 161.97vw;
+    z-index: 20;
+    position: absolute;
+    display: block;
+    top:16.57vw;
+    width: 82.45vw;
+  }
+  .global-navi.open{
+    right:0;
+    transition:0.2s;
+  }
+  .global-navi.close{
+    right:-150vw;
+    transition:0.2s;
+  }
+  .wrapper nav ul li{
+    margin-bottom:10.74vw;
+  }
+  .wrapper nav .btn-global-navi-english{
+    font-size: 4vw;
+    display: block;
+    line-height: 1.07;
+  }
+  .wrapper nav .btn-global-navi-japanese{
+    font-size: 3.6vw;
+    display: block;
+    line-height: 1.07;
+  }
+  .header-sns{
+    display: inline-block;
+    position: relative;
+    top: 5vw;
+    left: auto;
+  }
+  .header-sns a{
+    margin-right: 8.25vw;
+    margin-left: 8.25vw;
+    font-size: 13.6vw;
+  }
+
+  /*concept*/
+  .concept{
+    height: 225.59vw;
+    position: relative;
+    top:0;
+  }
+  .concept .container{
+    position:relative;
+  }
+
+  .heading-concept{
+    z-index: 10;
+    position: absolute;
+    left: 19.41vw;
+    top:25.59vw;
+    font-size: 5.85vw;
+    }
+  .txt-concept1{
+    position:absolute;
+    top: 56.38vw;
+    left: 12.36vw;
+    font-size: 3.99vw;
+    width:78.46vw;
+  }
+  .txt-concept2{
+    position:absolute;
+    left: 12.36vw;
+    top: 71.38vw;
+    font-size: 3.99vw;
+  }
+  .txt-concept-english{
+    z-index: 10;
+    position: absolute;
+    left:12.36vw;
+    top:94.44vw;
+    font-size: 3.99vw;
+  }
+  .btn-concept{
+    position: absolute;
+    width: 32.57vw;
+    height: 9.16vw;
+    left: 63.65vw;
+    top:117.18vw;
+    line-height: 9.16vw;
+    font-size: 3.19vw;
+  }
+.box{
+  display: inline-block;
+  width: 55.4vw;
+  height: 200.6vw;
+  position: absolute;
+  top: 15.96vw;
+  left: 44.41vw;
+}
+
+  .owner2{
+    width:57.05vw;
+    position:absolute;
+    top:131.7vw;
+    left:0;
+    z-index: 15;
+  }
+  .owner{
+    width:72.07vw;
+    position:absolute;
+    top:169.18vw;
+    left:27.47vw;
+    z-index: 15;
+  }
+
+
+  /*lodge*/
+  .lodge{
+    position: relative;
+    height: 252.59vw;
+  }
+  .vertical-heading-lodge{
+    position: absolute;
+    top:26.60vw;
+    left: 7.71vw;
+    opacity: 0.1;
+    font-size: 21.28vw;
+    line-height: 1;
+    z-index: 15;
+    letter-spacing: 0.1em;
+  }
+  .heading-lodge{
+    position: relative;
+    top:13.03vw;
+    left: 12.77vw;
+    font-size: 6.65vw;
+    letter-spacing: 0.1em;
+  }
+  /*underline*/
+
+  .heading-lodge:before {
+    width: 51vw;/*線の長さ*/
+    position: absolute;
+    left: 23.4vw;
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);/*位置調整*/
+    bottom: -7.31vw;/*線の上下位置*/
+  }
+  .img-bedroom{
+    width:100vw;
+    position: absolute;
+    top:152.93vw;
+    left: 0;
+  }
+  .img-scenery{
+    position: absolute;
+    top:226.06vw;
+    left:0;
+    width: 100vw;
+  }
+  /*food*/
+  .food{
+    height: 286.117vw;
+  }
+  .food .container{
+    position: relative;
+  }
+  .scription-wrapper-food{
+    height:110.6vw;
+    top:48.64vw;
+    left:28.19vw;
+  }
+  .vertical-heading-food{
+    position: absolute;
+    top:32.92vw;
+    left: 15.42vw;
+    opacity: 0.1;
+    font-size: 10.64vw;
+    line-height: 1;
+    z-index: 15;
+    letter-spacing: 0.1em;
+  }
+  .heading-food{
+    position: absolute;
+    top:18.83vw;
+    left: 7.18vw;
+    font-size: 6.65vw;
+    letter-spacing: 0.1em;
+  }
+  /*underline*/
+  .heading-food:before {
+    width: 55.85vw;/*線の長さ*/
+    bottom: -5.19vw;/*線の上下位置*/
+    left: 27.4vw;
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);/*位置調整*/
+  }
+
+  .img-meal{
+    width:100vw;
+    position: absolute;
+    top:180.53vw;
+    left: 0;
+  }
+  .img-meal2{
+    position: absolute;
+    top:257.93vw;
+    left:0;
+    width: 100vw;
+  }
+  /*program*/
+  .program{
+    height: 281.03vw;
+    background-color: #F8F8F8;
+  }
+  .program .container{
+    position: relative;
+  }
+  .scription-program{
+    position: absolute;
+    top:48.64vw;
+    left:28.19vw;
+  }
+  .vertical-heading-program{
+    position: absolute;
+    top:41.91vw;
+    left: 11.96vw;
+    opacity: 0.1;
+    font-size: 15.96vw;
+    line-height: 1;
+    z-index: 15;
+    letter-spacing: 0.1em;
+  }
+  .heading-program{
+    position: relative;
+    top:20.47vw;
+    left: 9.30vw;
+    font-size: 6.65vw;
+    letter-spacing: 0.1em;
+  }
+  .scription-wrapper-program{
+    position:absolute;
+    top:55.74vw;
+  }
+  .heading-program br{
+    display: inline-block;
+  }
+  /*underline*/
+  .heading-program:before {
+    width: 52.5vw;/*線の長さ*/
+    left: 24.2vw;
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);/*位置調整*/
+    bottom: -5.98vw;/*線の上下位置*/
+  }
+
+  .img-interactiveprogram{
+    width:100vw;
+    position: absolute;
+    top:174.89vw;
+    left: 0;
+  }
+  .img-interactiveprogram2{
+    position: absolute;
+    top:251.75vw;
+    left:0;
+    width: 100vw;
+  }
+  /*message*/
+  .message{
+    height: 130.68vw;
+    padding:28.6vw 0 8vw 0;
+    text-align: center;
+    display: block;
+    line-height: 2em;
+    font-size: 3.99vw;
+    letter-spacing: 0.1em;
+  }
+  .scription-message{
+    width:90.7vw;
+    margin-bottom:4.38vw;
+    margin-left:auto;
+    margin-right: auto;
+
+  }
+
+
+  /*ask*/
+  .ask{
+    height: 120.19vw;
+  }
+  .ask .container{
+    position: relative;
+  }
+  .ask-wrapper{
+    display: none;
+  }
+  .ask-ip-wrapper{
+    width:78.19vw;
+    height: 98.97vw;
+    position: absolute;
+    right: 0;
+    display: block;
+  }
+  .heading-ask-ip-english{
+    font-size: 6.65vw;
+    margin-top: 2.93vw;
+    margin-left: 11.97vw;
+  }
+  .heading-ask-ip-japanese{
+    font-size: 3.99vw;
+    margin-top: 4.52vw;
+    margin-left: 6.38vw;
+  }
+
+  .txt-ask-ip-japanese{
+    font-size: 3.99vw;
+    margin-top: 9.95vw;
+    text-align: center;
+    width:56.12vw;
+    line-height: 6.65vw;
+  }
+  .txt-ask-ip-english{
+    font-size: 3.99vw;
+    margin-left: 13.83vw;
+  }
+  .btn-ask-ip-contact{
+    font-size: 3.12vw;
+    margin-top: 13.4vw;
+    margin-left: 4.38vw;
+    width: 47.73vw;
+    height: 9.16vw;
+    line-height: 9.16vw;
+  }
+  .btn-ask-ip-booking{
+    font-size: 3.12vw;
+    margin-top: 3.88vw;
+    margin-left: 9.71vw;
+    width: 37.35vw;
+    height: 9.16vw;
+    line-height: 9.16vw;
+  }
+
+  /*footer*/
+  footer{
+    height: 20.91vw;
+    text-align: center;
+  }
+  .footer-top{
+    display: none;
+  }
+  .footer-top-ip{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 104vw;
+  }
+  .img-logo-white-ip img{
+    width: 68.88vw;
+    height: 53.46vw;
+  }
+  .txt-adress-ip{
+    width: 61.17vw;
+    font-weight: normal;
+    font-size: 3.46vw;
+    text-align: center;
+    margin: auto;
+  }
+  .sns-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:10.3vw;
+  }
+  .logo-facebook-ip{
+    font-size:10.37vw;
+    margin-right: 5.19vw;
+    vertical-align: middle;
+  }
+  .logo-instagram-ip{
+    font-size:10.37vw;
+    margin-left: 5.19vw;
+    vertical-align: middle;
+  }
+  .logo-facebook-ip i{
+    display: table-cell;
+  }
+  .logo-instagram-ip i{
+  display: table-cell;
+  }
+  .footer-bottom{
+    height: 9.84vw;
+    opacity: 0.8;
+    text-align: center;
+  }
+  .copyright-ip{
+    display: inline-block;
+    font-size: 2.66vw;
+  }
+  .copyright{
+    display: none;
+  }
+}
+
+@media (min-width: 1920px) {
+  html{
+    font-size: 23px;
+  }
+
+  }
